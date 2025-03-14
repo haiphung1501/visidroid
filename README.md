@@ -106,9 +106,9 @@ Please note that in our evaluation, we use the ground truth for reference only. 
 
 ### Visidroid
 
-- **Full Model:** [Download](https://drive.google.com/file/d/1OaGa_iiYgbVnwP2Q7oPcPzoO68-AXXwp/view?usp=drive_link)
+- **Full Model:** [Download](https://drive.google.com/file/d/1OaGa_iiYgbVnwP2Q7oPcPzoO68-AXXwp/view)
 - **Memory Ablation:** [Download](https://drive.google.com/file/d/1NrXmXDjKfBk3BBgPhv2FrqhAFYnJBoBK/view?usp=drive_link)
-- **Vision Ablation:** [Download](https://drive.google.com/file/d/1Ew-M3fuQdk9AVH6B78dhJk1r4TtSa04b/view?usp=drive_link)
+- **Vision Ablation:** [Download](https://drive.google.com/file/d/1Ew-M3fuQdk9AVH6B78dhJk1r4TtSa04b/view)
 
 ### Baselines
 
