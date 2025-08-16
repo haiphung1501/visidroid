@@ -38,7 +38,7 @@ def prefix_complete(evals, gt):
 # ----- Main -----
 
 # methods = ['autodroid', 'guardian', 'visidroid', 'droidagent']
-methods = ['guardian','droidagent', 'autodroid',  'visidroid',  'visidroid_no_mem', 'visidroid_no_vision',]
+methods = ['guardian','droidagent', 'autodroid',  'visidroid',  'visidroid_no_mem', 'visidroid_no_vision','visidroid_complete',]
         #    'visdroid']
 all_results = {}
 task_completion_df = pd.DataFrame(columns=['task']+methods)

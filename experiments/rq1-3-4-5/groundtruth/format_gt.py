@@ -2,7 +2,7 @@ import json
 import os 
 import pandas as pd
 
-gt_file = 'groundtruth/result_analysis.json'
+gt_file = 'result_analysis.json'
 
 gt = json.load(open(gt_file))
 
@@ -83,7 +83,7 @@ for app in gt:
 # sort by app_name then task_desc
 all_tasks = all_tasks.sort_values(by=['app_name', 'task_desc'])
 
-os.chdir('groundtruth')
+# os.chdir('groundtruth')
 all_tasks.to_excel('all_tasks.xlsx', index=False)
 
 apps = all_tasks['app_name'].unique()

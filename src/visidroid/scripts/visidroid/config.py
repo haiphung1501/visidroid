@@ -6,26 +6,12 @@ from functools import cached_property
 from .utils.activity_name_manager import ActivityNameManager
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
-GPT_4O = 'gpt-4o'
-GPT_4 = 'gpt-4-turbo'
-GPT_3_5 = 'gpt-3.5-turbo-0125'
-# GPT_3_5 = 'gpt-3.5-turbo-0613'
-GPT_3_5_16k = 'gpt-3.5-turbo-16k-0613'
-
-class Persona:
-    def __init__(self, persona_dict):
-        self.name = persona_dict['name']
-        self.ultimate_goal = persona_dict['ultimate_goal']
-        self.initial_knowledge = persona_dict['initial_knowledge']
-        self.train = persona_dict['train']
-        self.evaluate = persona_dict['evaluate']
-        # del persona_dict['ultimate_goal']
-        # del persona_dict['initial_knowledge']
-
-        self.profile_dict = persona_dict
+o'PT_3_5 = 'gpt-3.5-turbo-0613't-3.5-turbo-16k-0613'
+def __init__(self, persona_dict):imate_goal = persona_dict['ultimate_goal']_knowledge']dict['train']
+        self.evaluate = persona_dict['evaluate'] imate_goal']
+        # del persona_dict['initial_knowledge']dsadct
         
-        profile_str = ''
-        for k, v in self.profile_dict.items():
+        profile_str = ''sa dadems():
             profile_str += f'- {k}: {v}\n'
 
         self.profile = f'''

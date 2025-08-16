@@ -1,0 +1,364 @@
+[
+  {
+    "app_name": "calendar",
+    "task_desc": "add all the contacts anniversaries into Calendar",
+    "hash": "507cc6d19f89ee4a7733f0d2d5407dc52eefd470f265582e76878dab4ce6e7e6",
+    "evals": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 0,
+    "total_actions": 11,
+    "accuracy": 0.0
+  },
+  {
+    "app_name": "filemanager",
+    "task_desc": "change the storage type to sd card",
+    "hash": "0a43b803ab70c7c324cf211286424b63d841b3ed839a5b6f26c2610db5daf183",
+    "evals": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 0,
+    "total_actions": 6,
+    "accuracy": 0.0
+  },
+  {
+    "app_name": "filemanager",
+    "task_desc": "go to the 'recent' tab and open the test1.m4a",
+    "hash": "e269c90eebf3a34d2f66a2b3ca4c6bed9ad70e43cf13bc3412b564eba75e0fb0",
+    "evals": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 0,
+    "total_actions": 10,
+    "accuracy": 0.0
+  },
+  {
+    "app_name": "messenger",
+    "task_desc": "Send long messages as MMS",
+    "hash": "7ed78cd7c6e0775da7243ebebc37860637dc9dc3a3678c2878b3f14138708037",
+    "evals": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 0,
+    "total_actions": 12,
+    "accuracy": 0.0
+  },
+  {
+    "app_name": "gallery",
+    "task_desc": "Do not display GIF images in the Gallery app",
+    "hash": "ac9f53d695e51749c3a882095abd967bae535cc99508ab899c382842c057fb14",
+    "evals": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 1,
+    "total_actions": 12,
+    "accuracy": 0.08333333333333333
+  },
+  {
+    "app_name": "calendar",
+    "task_desc": "export the events to test.ics under DCIM folder",
+    "hash": "913bea2ab07f13d5de0f335f3b4e6737ccf343f5768df50734a99a7f8c4c3f1b",
+    "evals": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 1,
+    "total_actions": 11,
+    "accuracy": 0.09090909090909091
+  },
+  {
+    "app_name": "camera",
+    "task_desc": "rotate right the last picture I took and save it as pic4.jpg",
+    "hash": "bb56b10db2d289f022cb73cbcf16c96a8387c5484d1596b4d26438dae515e336",
+    "evals": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 1,
+    "total_actions": 7,
+    "accuracy": 0.14285714285714285
+  },
+  {
+    "app_name": "camera",
+    "task_desc": "resize the last photo to 1000:473",
+    "hash": "3d888c7712cfaa77182531a889141279aaede4aedf48823c3b3717eff08e91f8",
+    "evals": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 2,
+    "total_actions": 10,
+    "accuracy": 0.2
+  },
+  {
+    "app_name": "messenger",
+    "task_desc": "Remove accents and diacritics at sending messages",
+    "hash": "640d6e9818df79f0cd3be30035b9b14d960fcdddf6a0e337e645157f056f01b9",
+    "evals": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 1,
+    "total_actions": 5,
+    "accuracy": 0.2
+  },
+  {
+    "app_name": "contacts",
+    "task_desc": "Open dialpad and call 911",
+    "hash": "3f70d4da52a3c7614d7137f8fee9c5294ff4d95ed58d4bce647de12d2872921a",
+    "evals": [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 2,
+    "total_actions": 8,
+    "accuracy": 0.25
+  },
+  {
+    "app_name": "camera",
+    "task_desc": "move the last photo I took to folder 'movies' in SD card",
+    "hash": "c61489b89b1946269ba75db899fa83619285bdf95ef0c0f2ef368ecb957e0115",
+    "evals": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 2,
+    "total_actions": 7,
+    "accuracy": 0.2857142857142857
+  },
+  {
+    "app_name": "notes",
+    "task_desc": "Delete the note 'Diary'",
+    "hash": "189f0aaa626663d379c7b24d34a87fabbc85ef9ef8930d2d1716a7c305d2df08",
+    "evals": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 3,
+    "total_actions": 9,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "app_name": "camera",
+    "task_desc": "rename the last photo to 'sunset'",
+    "hash": "2d4caf6bbfdc3d4bb5cab7c76b7463417bfd3cc125ad5dbeafa4b614fa73c266",
+    "evals": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 3,
+    "total_actions": 8,
+    "accuracy": 0.375
+  },
+  {
+    "app_name": "clock",
+    "task_desc": "Set the sorting order for alarms by 'Day and Alarm time'",
+    "hash": "668d431af05d31bed0108a7ea78ea794f656fe312b49a00a4f971956dbef116a",
+    "evals": [
+      true,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 1,
+    "total_actions": 2,
+    "accuracy": 0.5
+  },
+  {
+    "app_name": "contacts",
+    "task_desc": "Create a new group 'Classmates',add Alice,Bob and Jack to the new group, and text to the group 'GatheringInTheOldPlace'",
+    "hash": "96e0d89b6c91e87b3b716b3b3f9127fc16be2fc6e2fc64a648cb619c0ccc9e06",
+    "evals": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 6,
+    "total_actions": 12,
+    "accuracy": 0.5
+  },
+  {
+    "app_name": "voicerecorder",
+    "task_desc": "search for 'test1' and click on the 'test1.m4a'",
+    "hash": "96a8c16880220121a4731e61c4bf15c3aaeaeb07cc534274c7f3cbdacfe3186f",
+    "evals": [
+      true,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 1,
+    "total_actions": 2,
+    "accuracy": 0.5
+  },
+  {
+    "app_name": "calendar",
+    "task_desc": "Add the holidays of South Africa to the calendar and list all the events in 2023",
+    "hash": "08cd9f2b2ff579e2b0f003f1104530ed4d365175b067c1a96addc3b5984717db",
+    "evals": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 9,
+    "total_actions": 14,
+    "accuracy": 0.6428571428571429
+  },
+  {
+    "app_name": "dialer",
+    "task_desc": "search call history with Bob",
+    "hash": "e7200d11f657a851cc5fa66db8b77ebe224fd3659dab173ce7106feb0d22e65d",
+    "evals": [
+      true,
+      true,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 2,
+    "total_actions": 3,
+    "accuracy": 0.6666666666666666
+  },
+  {
+    "app_name": "musicplayer",
+    "task_desc": "play 'test1' in recordings and set the loop mode to 'loop the current song'",
+    "hash": "ef11f3bc3f12ccae8b54203dd29c0f4bc5ad85facf2dcb9eb2efe39b6385b3ba",
+    "evals": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "all_correct": false,
+    "correct_count": 3,
+    "total_actions": 4,
+    "accuracy": 0.75
+  }
+]

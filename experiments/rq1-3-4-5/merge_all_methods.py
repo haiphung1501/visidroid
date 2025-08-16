@@ -68,11 +68,11 @@ def get_task_by_task_desc(df, app_name, task_desc, df_path=None):
 
 
 # 'autodroid', 'droidagent', 'guardian', 'visidroid', 
-methods = ['guardian','droidagent', 'autodroid',  'visidroid',  'visidroid_no_mem', 'visidroid_no_vision',]
+methods = ['guardian','droidagent', 'autodroid',  'visidroid',  'visidroid_no_mem', 'visidroid_no_vision','visidroid_complete']
         #    'visidroid_no_vision']
         
 # methods = ["visidroid", ]
-gt = r'experiments\rq1-3-4-5\groundtruth'
+gt = r'groundtruth'
 
 gt_df = pd.read_excel(os.path.join(gt, 'all_tasks.xlsx'))
 gt_df = gt_df[gt_df['app_name']!= 'firefox']
@@ -89,7 +89,7 @@ method_dfs = {}
 not_founds = {}
 founds = {}
 for method in methods:
-    base_dir = os.path.join(r'experiments\rq1-3-4-5\methods', method)
+    base_dir = os.path.join(r'methods', method)
     method_dfs[method] = pd.read_excel(os.path.join(base_dir, 'all_tasks.xlsx'))
     not_founds[method] = []
     founds[method] = []
@@ -99,7 +99,7 @@ for index, row in merged_df.iterrows():
     app_name = row['app_name']
 
     for method in methods:    
-        base_dir = os.path.join(r'experiments\rq1-3-4-5\methods', method)
+        base_dir = os.path.join(r'methods', method)
         task = get_task_by_task_desc(method_dfs[method], app_name, task_desc, os.path.join(base_dir, 'all_tasks_.xlsx'))
         if task is None and (method == 'visidroid_no_vision' or method == 'visidroid_no_mem'):
             task = get_task_by_task_desc(method_dfs['visidroid'], app_name, task_desc, os.path.join(base_dir, 'all_tasks_.xlsx'))

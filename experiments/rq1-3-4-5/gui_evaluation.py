@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import pandas as pd
 
-comparing_method = 'visidroid_no_vision'
+comparing_method = 'visidroid_complete'
 eval_dir = f"evals/evals-{comparing_method}"
 
 # Function to handle input validation and focus navigation
@@ -183,10 +183,26 @@ def load_results(app_name, hash):
         return json.load(f)['evals']
     
 
-file = "merged_all_tasks.xlsx"
+file = "merged_all_tasks_.xlsx"
 df = pd.read_excel(file)
-# filter df where method_strict_eval is False
-df = df[df[f"{comparing_method}_strict_eval"] == False]
+
+# Load incorrect tasks from the extraction script
+incorrect_tasks_file = "incorrect_tasks.json"
+if os.path.exists(incorrect_tasks_file):
+    with open(incorrect_tasks_file, 'r') as f:
+        incorrect_tasks_data = json.load(f)
+    
+    # Get the hash IDs of incorrect tasks
+    incorrect_hashes = [task['hash'] for task in incorrect_tasks_data]
+    
+    # Filter to only include incorrect tasks
+    df = df[df['hash'].isin(incorrect_hashes)]
+    print(f"Filtered to {len(df)} incorrect tasks for evaluation")
+else:
+    print("Warning: incorrect_tasks.json not found. Using all tasks.")
+    # Fallback to original filtering
+    df = df[df[f"{comparing_method}_strict_eval"] == False]
+
 df["evaluated"] = df.apply(lambda x: os.path.exists(os.path.join(eval_dir, f"{x['app_name']}_{x['hash']}.json")), axis=1)
 
 if len(df) == 0:

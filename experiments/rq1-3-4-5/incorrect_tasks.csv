@@ -1,0 +1,20 @@
+app_name,task_desc,hash,evals,all_correct,correct_count,total_actions,accuracy
+calendar,add all the contacts anniversaries into Calendar,507cc6d19f89ee4a7733f0d2d5407dc52eefd470f265582e76878dab4ce6e7e6,"[False, False, False, False, False, False, False, False, False, False, False]",False,0,11,0.0
+filemanager,change the storage type to sd card,0a43b803ab70c7c324cf211286424b63d841b3ed839a5b6f26c2610db5daf183,"[False, False, False, False, False, False]",False,0,6,0.0
+filemanager,go to the 'recent' tab and open the test1.m4a,e269c90eebf3a34d2f66a2b3ca4c6bed9ad70e43cf13bc3412b564eba75e0fb0,"[False, False, False, False, False, False, False, False, False, False]",False,0,10,0.0
+messenger,Send long messages as MMS,7ed78cd7c6e0775da7243ebebc37860637dc9dc3a3678c2878b3f14138708037,"[False, False, False, False, False, False, False, False, False, False, False, False]",False,0,12,0.0
+gallery,Do not display GIF images in the Gallery app,ac9f53d695e51749c3a882095abd967bae535cc99508ab899c382842c057fb14,"[True, False, False, False, False, False, False, False, False, False, False, False]",False,1,12,0.08333333333333333
+calendar,export the events to test.ics under DCIM folder,913bea2ab07f13d5de0f335f3b4e6737ccf343f5768df50734a99a7f8c4c3f1b,"[True, False, False, False, False, False, False, False, False, False, False]",False,1,11,0.09090909090909091
+camera,rotate right the last picture I took and save it as pic4.jpg,bb56b10db2d289f022cb73cbcf16c96a8387c5484d1596b4d26438dae515e336,"[True, False, False, False, False, False, False]",False,1,7,0.14285714285714285
+camera,resize the last photo to 1000:473,3d888c7712cfaa77182531a889141279aaede4aedf48823c3b3717eff08e91f8,"[True, False, True, False, False, False, False, False, False, False]",False,2,10,0.2
+messenger,Remove accents and diacritics at sending messages,640d6e9818df79f0cd3be30035b9b14d960fcdddf6a0e337e645157f056f01b9,"[True, False, False, False, False]",False,1,5,0.2
+contacts,Open dialpad and call 911,3f70d4da52a3c7614d7137f8fee9c5294ff4d95ed58d4bce647de12d2872921a,"[True, True, False, False, False, False, False, False]",False,2,8,0.25
+camera,move the last photo I took to folder 'movies' in SD card,c61489b89b1946269ba75db899fa83619285bdf95ef0c0f2ef368ecb957e0115,"[True, False, True, False, False, False, False]",False,2,7,0.2857142857142857
+notes,Delete the note 'Diary',189f0aaa626663d379c7b24d34a87fabbc85ef9ef8930d2d1716a7c305d2df08,"[False, False, False, False, False, True, True, True, False]",False,3,9,0.3333333333333333
+camera,rename the last photo to 'sunset',2d4caf6bbfdc3d4bb5cab7c76b7463417bfd3cc125ad5dbeafa4b614fa73c266,"[True, True, True, False, False, False, False, False]",False,3,8,0.375
+clock,Set the sorting order for alarms by 'Day and Alarm time',668d431af05d31bed0108a7ea78ea794f656fe312b49a00a4f971956dbef116a,"[True, False]",False,1,2,0.5
+contacts,"Create a new group 'Classmates',add Alice,Bob and Jack to the new group, and text to the group 'GatheringInTheOldPlace'",96e0d89b6c91e87b3b716b3b3f9127fc16be2fc6e2fc64a648cb619c0ccc9e06,"[True, True, True, True, True, True, False, False, False, False, False, False]",False,6,12,0.5
+voicerecorder,search for 'test1' and click on the 'test1.m4a',96a8c16880220121a4731e61c4bf15c3aaeaeb07cc534274c7f3cbdacfe3186f,"[True, False]",False,1,2,0.5
+calendar,Add the holidays of South Africa to the calendar and list all the events in 2023,08cd9f2b2ff579e2b0f003f1104530ed4d365175b067c1a96addc3b5984717db,"[False, True, False, False, True, True, True, True, True, True, True, True, False, False]",False,9,14,0.6428571428571429
+dialer,search call history with Bob,e7200d11f657a851cc5fa66db8b77ebe224fd3659dab173ce7106feb0d22e65d,"[True, True, False]",False,2,3,0.6666666666666666
+musicplayer,play 'test1' in recordings and set the loop mode to 'loop the current song',ef11f3bc3f12ccae8b54203dd29c0f4bc5ad85facf2dcb9eb2efe39b6385b3ba,"[True, True, True, False]",False,3,4,0.75

@@ -1,0 +1,19 @@
+Add the holidays of South Africa to the calendar and list all the events in 2023
+add all the contacts anniversaries into Calendar
+export the events to test.ics under DCIM folder
+move the last photo I took to folder 'movies' in SD card
+rename the last photo to 'sunset'
+resize the last photo to 1000:473
+rotate right the last picture I took and save it as pic4.jpg
+Set the sorting order for alarms by 'Day and Alarm time'
+Create a new group 'Classmates',add Alice,Bob and Jack to the new group, and text to the group 'GatheringInTheOldPlace'
+Open dialpad and call 911
+search call history with Bob
+change the storage type to sd card
+go to the 'recent' tab and open the test1.m4a
+Do not display GIF images in the Gallery app
+Remove accents and diacritics at sending messages
+Send long messages as MMS
+play 'test1' in recordings and set the loop mode to 'loop the current song'
+Delete the note 'Diary'
+search for 'test1' and click on the 'test1.m4a'

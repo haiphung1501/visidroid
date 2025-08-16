@@ -10,7 +10,7 @@ df = pd.read_csv('summary/task_completion.csv')
 sets = {
     'Guardian': set(df[df['guardian']==1]['task']),
     'AutoDroid': set(df[df['autodroid']==1]['task']),
-    'VisiDroid': set(df[df['visidroid']==1]['task']),
+    'VisioFlow': set(df[df['visidroid_complete']==1]['task']),
     'DroidAgent': set(df[df['droidagent']==1]['task']),
 }
 
@@ -22,14 +22,14 @@ intersection = get_unique(sets)
 dfs = {}
 for set_name in intersection:
     print(set_name)
-    if ("autodroid" in set_name or "visidroid" in set_name) and "and" not in set_name:
+    if ("autodroid" in set_name or "visidroid_complete" in set_name) and "and" not in set_name:
         print(set_name, len(intersection[set_name]))
         if set_name not in dfs:
             dfs[set_name] = pd.DataFrame()
         eval_df = pd.read_excel(f"summary/{set_name}_evals.xlsx")
-        other_name = "autodroid" if "visidroid" in set_name else "visidroid"
+        other_name = "autodroid" if "visidroid_complete" in set_name else "visidroid_complete"
         if "autodroid" in set_name:
-            comparing_df = pd.read_excel(f"summary/visidroid_evals.xlsx")
+            comparing_df = pd.read_excel(f"summary/visidroid_complete_evals.xlsx")
         else:
             comparing_df = pd.read_excel(f"summary/autodroid_evals.xlsx")
             
